@@ -1,0 +1,62 @@
+*{
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+    width: 60%;
+    border : 1px solid black
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+
+.login-btn{
+    background-color: blue;
+    color: white;
+    border : 2px solid black;
+    box-shadow: 2px 2px black;
+    width: 50px;
+    height: 25px;
+}
+
+.content {
+    display: flex;
+}
+
+.left-side{
+    width: 55%;
+    border : 2px solid black;
+    padding: 25px;
+}
+
+.left-likes {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-likes, h1, h5, button {
+    padding-bottom: 8px;
+}
+
+.likes-div{
+    display: flex;
+}
+
+.likes-btn {
+    background-color: #FFD966 ;
+    height: 30px;
+}
+
+.right-likes {
+    font-size: 20px;
+}
+
+
